@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatore</title>
+    <link rel="icon" href="./img/tutorial-preview-large.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+<section>
+
+<div class="row container mx-auto vh-100">
+
+<div class=" px-0 d-flex justify-content-center align-items-center">
+
+<div class="col-lg-3 col-md-3 col-sm-12 mx-auto">
+
+<div class="calaBody ">
+
+<input type="text" id="text" class=" w-100 " readonly>
+    
+<div class="keys  pt-3 py-2">
+    <div class="d-flex justify-content-evenly w-100 mb-2">
+        <button class="putton" onclick="clearDisplay()" id="reset"> C </button>
+        <button class="putton ygreen" onclick="del()" id="delete"> <i class="fa-solid fa-delete-left"></i> </button>
+        <button class="putton ygreen" onclick="appendToDisplay('%')" id="persentage"> % </button>
+        <button class="putton ygreen" onclick="appendToDisplay('/')" id="devide"> / </button>
+    </div>
+
+    <div class="d-flex justify-content-evenly w-100 mb-2">
+        <button class="putton" onclick="appendToDisplay('7')" id="seven"> 7 </button>
+        <button class="putton" onclick="appendToDisplay('8')" id="eight"> 8 </button>
+        <button class="putton" onclick="appendToDisplay('9')" id="nigen"> 9 </button>
+        <button class="putton ygreen" onclick="appendToDisplay('*')" id="by"> * </button>
+    </div>
+
+    <div class="d-flex justify-content-evenly w-100 mb-2">
+        <button class="putton" onclick="appendToDisplay('4')" id="four"> 4 </button>
+        <button class="putton" onclick="appendToDisplay('5')" id="five"> 5 </button>
+        <button class="putton" onclick="appendToDisplay('6')" id="six"> 6 </button>
+        <button class="putton ygreen" onclick="appendToDisplay('-')" id="minas"> - </button>    
+    </div>
+
+    <div class="d-flex justify-content-evenly w-100 mb-2">
+        <button class="putton" onclick="appendToDisplay('1')" id="one"> 1 </button>
+        <button class="putton" onclick="appendToDisplay('2')" id="two"> 2 </button>
+        <button class="putton" onclick="appendToDisplay('3')" id="three"> 3 </button>
+        <button class="putton ygreen" onclick="appendToDisplay('+')" id="plus"> + </button>
+    </div>
+    
+    <div class="d-flex justify-content-evenly w-100 mb-2">
+        <button class="putton" onclick="appendToDisplay('00')" id="zerozero"> 00 </button>
+        <button class="putton" onclick="appendToDisplay('0')" id="zero"> 0 </button>
+        <button class="putton" onclick="appendToDisplay('.')" id="dott"> . </button>
+        <button class="putton ygreen" onclick="calculate('=')" id="equal"> = </button> 
+    </div>
+    
+
+</div>
+
+</div>    
+
+</div> 
+    
+</div>
+
+</div>    
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>

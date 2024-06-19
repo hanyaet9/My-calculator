@@ -1,0 +1,17 @@
+body {background-color: hsl(0, 0%, 20%);}
+
+.calaBody {border: 2px solid grey; border-radius:10px; overflow: hidden; min-width: 300px;}
+#text {background-color: rgb(36, 37, 37); border: none; padding: 40px 20px 20px 20px; font-size: 38px;
+border: none; outline: none; color: white;}
+/* #text:focus{ border: none; outline: 0px solid black;} */
+
+.keys {display: flex; flex-wrap: wrap; justify-content: space-around; background-color: black; border-top: 2px solid gray;}
+.putton {width: 50px; height: 50px; border-radius: 50%; color: white; font-size: 22px; font-weight: bold; background-color: rgb(36, 37, 37);
+display: flex; justify-content: center; align-items: center; cursor: pointer; transition: 0.4s all; border: 0px;}
+.putton:hover { color: tomato;}
+.putton:active { background-color: rgb(216, 214, 214);}
+#reset {color: tomato;}
+.ygreen {color: chartreuse;}
+#delete {font-size: 18px;}
+#equal {background-color: tomato; color: white;}
+#equal:active {background-color: rgb(223, 53, 53);}
